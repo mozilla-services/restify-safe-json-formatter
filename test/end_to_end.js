@@ -9,7 +9,7 @@ var test = require('tap').test;
 var cp = require('child_process');
 var TestServer = require('./test_server_runner');
 
-var restify = require('restify');
+var restifyClients = require('restify-clients');
 
 var PORT = 9876;
 var testServer = new TestServer(PORT);
@@ -25,7 +25,7 @@ test(
   }
 );
 
-var client = restify.createJsonClient({
+var client = restifyClients.createJsonClient({
   url: 'http://127.0.0.1:' + PORT
 });
 
