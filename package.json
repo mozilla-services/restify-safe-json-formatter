@@ -3,6 +3,9 @@
   "version": "0.4.0",
   "description": "A restify formatter that unicode escapes <, >, & as \\u003c, \\u003e, & respectively to keep some browsers from misinterpreting it as HTML.",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "tap test/end_to_end.js"
   },
