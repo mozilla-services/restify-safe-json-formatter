@@ -1507,7 +1507,7 @@ obuf@^1.0.0, obuf@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
 
-once@^1.3.0, once@^1.3.2, once@^1.4.0:
+once@^1.3.0, once@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/once/-/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
   dependencies:
@@ -1767,9 +1767,10 @@ resolve-url@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
 
-restify-clients@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/restify-clients/-/restify-clients-2.5.0.tgz#87f63300671a301aa43f9b62f37bbeed85b2bbc9"
+restify-clients@^2.6.4:
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/restify-clients/-/restify-clients-2.6.4.tgz#4f57c8c0f385bd259d54eadb50f3d9e7555bb954"
+  integrity sha512-ulS+Laqq3MjhCKM/GcRhypYN4u2XtbKbVhS8pVGPqTyeBvHgp0yfPCZRyKqV1caFfrjxT8SCR8d+/pQ3T+gSHA==
   dependencies:
     assert-plus "^1.0.0"
     backoff "^2.4.1"
@@ -1779,7 +1780,8 @@ restify-clients@^2.5.0:
     lodash "^4.17.10"
     lru-cache "^4.0.1"
     mime "^2.2.0"
-    once "^1.3.2"
+    once "^1.4.0"
+    qs "^6.5.2"
     restify-errors "^6.0.0"
     semver "^5.0.1"
     tunnel-agent "^0.6.0"
