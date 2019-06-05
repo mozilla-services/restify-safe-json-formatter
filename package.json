@@ -1,6 +1,6 @@
 {
   "name": "restify-safe-json-formatter",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "A restify formatter that unicode escapes <, >, & as \\u003c, \\u003e, & respectively to keep some browsers from misinterpreting it as HTML.",
   "main": "index.js",
   "files": [
@@ -21,9 +21,9 @@
   "homepage": "https://github.com/g-k/restify-safe-json-formatter#readme",
   "devDependencies": {
     "request": "^2.87.0",
-    "restify": "^7.2.1",
+    "restify": "^8.3.3",
     "restify-clients": "^2.6.6",
-    "tap": "^12.0.1"
+    "tap": "^14.2.2"
   },
   "dependencies": {}
 }
