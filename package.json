@@ -9,6 +9,10 @@
   "scripts": {
     "test": "tap test/end_to_end.js"
   },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6.4.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/g-k/restify-safe-json-formatter.git"
