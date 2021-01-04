@@ -1,0 +1,29 @@
+version: 2.1
+
+workflows:
+  test-node-versions:
+    jobs:
+      - test:
+          matrix:
+            parameters:
+              node_version: ["10-slim", "12-slim"]
+
+jobs:
+  test:
+    parameters:
+      node_version:
+        type: string
+    docker:
+      - image: node:<< parameters.node_version >>
+        # auth:
+        #   username: $DOCKER_USER
+        #   password: $DOCKER_PASS
+    # working_directory: ~/
+    steps:
+      - checkout
+      - run:
+          name: install
+          command: npm ci
+      - run:
+          name: test
+          command: npm test
