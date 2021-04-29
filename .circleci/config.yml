@@ -6,7 +6,7 @@ workflows:
       - test:
           matrix:
             parameters:
-              node_version: ["10-slim", "12-slim"]
+              node_version: ["10-slim", "12-slim", "14-slim", "16-slim"]
 
 jobs:
   test:
