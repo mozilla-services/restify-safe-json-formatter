@@ -27,7 +27,7 @@
     "request": "^2.87.0",
     "restify": "^8.3.3",
     "restify-clients": "^2.6.6",
-    "tap": "^14.2.2"
+    "tap": "^14.11.0"
   },
   "dependencies": {}
 }
